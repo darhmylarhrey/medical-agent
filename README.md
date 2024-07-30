@@ -1,6 +1,8 @@
 
 ### README: Setting Up and Using the Metrics Test Code
 
+### Video Evalaution/Report youtube https://youtu.be/2Iijbw-Jks4
+
 ## Introduction
 
 This README provides step-by-step instructions on setting up and using the test code to evaluate the performance metrics of the RAG-based medical assistant chatbot.
