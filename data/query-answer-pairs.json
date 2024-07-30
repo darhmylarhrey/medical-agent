@@ -1,0 +1,12 @@
+[
+    {
+        "query": "What is the treatment for asthma?",
+        "expected_answer": "The treatment for asthma includes the use of inhalers, oral medications, and lifestyle changes to avoid triggers.",
+        "generated_answer": "Asthma treatment involves the use of inhalers, oral medications, and lifestyle adjustments to avoid asthma triggers."
+    },
+    {
+        "query": "What are the side effects of metformin?",
+        "expected_answer": "Common side effects of metformin include nausea, vomiting, and diarrhea. It can also cause abdominal discomfort and a metallic taste in the mouth.",
+        "generated_answer": "Metformin side effects include nausea, vomiting, diarrhea, abdominal discomfort, and a metallic taste in the mouth."
+    }
+]

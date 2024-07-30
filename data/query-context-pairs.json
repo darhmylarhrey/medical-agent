@@ -1,0 +1,24 @@
+[
+    {
+        "query": "What are the common symptoms of diabetes?",
+        "relevant_contexts": [
+            "Diabetes symptoms include frequent urination, increased thirst, and unexplained weight loss.",
+            "Other symptoms may include fatigue, blurred vision, and slow-healing sores."
+        ],
+        "retrieved_contexts": [
+            "Diabetes symptoms include frequent urination, increased thirst, and unexplained weight loss.",
+            "High blood sugar levels can also lead to complications such as nerve damage."
+        ]
+    },
+    {
+        "query": "How is hypertension diagnosed?",
+        "relevant_contexts": [
+            "Hypertension is diagnosed by measuring blood pressure over multiple visits to the doctor.",
+            "Other tests may include blood tests, urine tests, and electrocardiograms."
+        ],
+        "retrieved_contexts": [
+            "Hypertension is diagnosed by measuring blood pressure over multiple visits to the doctor.",
+            "High blood pressure can be a result of various factors, including genetics and lifestyle."
+        ]
+    }
+]

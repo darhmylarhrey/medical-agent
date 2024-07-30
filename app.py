@@ -256,12 +256,21 @@ class RAGSystem:
             st.write("Attempting to perform hybrid search...")
 
             try:
+                st.write("Attempting to perform hybrid search...")
                 search_result = self.client.query.get("PatientDocument", ["patient", "title", "file_path"]) \
-                    .with_hybrid({"query": symptoms, "alpha": 0.5}) \
+                    .with_hybrid(query=symptoms, alpha=0.5) \
                     .with_limit(5) \
                     .do()
+                st.write("Search Result:", search_result)
             except Exception as search_exception:
                 st.write(f"Error during search: {search_exception}")
+                st.write("Search Query Debug Info:")
+                st.write("Symptoms:", symptoms)
+                st.write("Search Query:", {
+                    "query": symptoms,
+                    "alpha": 0.5,
+                    "limit": 5
+                })
                 raise search_exception
 
             st.write("Search Result Raw:", search_result)
